@@ -2,7 +2,7 @@ img {
     width: 200px;
 }
 .image-item {
-    opacity: 0;
+    opacity: 1;
     transition: opacity 0.6s ease;
 }
 .image-item:hover {
