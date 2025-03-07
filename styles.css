@@ -1,0 +1,53 @@
+img {
+    width: 200px;
+}
+.image-item {
+    opacity: 0;
+    transition: opacity 0.6s ease;
+}
+.image-item:hover {
+    opacity: 1;
+}
+.image-item p {
+    line-height: 1.1;
+    margin: 0;
+  }
+body {
+    display: block;
+    margin: 8px;
+    background-color: rgb(202, 42, 42);
+    font-family: 'Koulen', sans-serif;
+    color: rgb(255, 255, 255);
+}
+.intro {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 100vh;         
+    margin: 0;  
+    font-size: 20px;   
+}
+h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin-top: 600px;
+    margin-bottom: 80px;         
+    font-family: 'Libre Barcode 39 Extended Text', cursive;
+    font-size: 30px;
+}
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    padding-left: 520px;
+    padding-right: 520px;
+    font-family: 'Questrial', sans-serif;
+    font-size: 12px;
+    text-align: justify;
+}
+.side-by-side {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+}
